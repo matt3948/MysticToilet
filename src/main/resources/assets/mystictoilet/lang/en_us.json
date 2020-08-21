@@ -1,3 +1,12 @@
 {
-  "item.mystictoilet.mystic_forge_stone": "Mystic Forge Stone"
+  "item.mystictoilet.mystic_forge_stone": "Mystic Forge Stone",
+  "item.mystictoilet.glob_of_ectoplasm": "Glob of Ectoplasm",
+  "item.mystictoilet.mystic_coin": "Mystic Coin",
+  "item.mystictoilet.mystic_crystal": "Mystic Crystal",
+  "item.mystictoilet.obsidian_shard": "Obsidian Shard",
+  "item.mystictoilet.philosophers_stone": "Philosopher's Stone",
+
+  "block.mystictoilet.mystic_forge_stone_block":"Mystic Forge Stone Block",
+
+  "itemGroup.mystictoiletTab" : "Mystic Toilet"
 }

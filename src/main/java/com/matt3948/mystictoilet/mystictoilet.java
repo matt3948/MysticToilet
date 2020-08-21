@@ -1,6 +1,8 @@
 package com.matt3948.mystictoilet;
 
 import com.matt3948.mystictoilet.util.RegistryHandler;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -30,4 +32,11 @@ public class mystictoilet
 
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
+
+    public static final ItemGroup TAB = new ItemGroup("mystictoiletTab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.MYSTIC_FORGE_STONE.get());
+        }
+    };
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystictoilet:blocks/mystic_forge_stone_block"
+  }
+}
