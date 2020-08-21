@@ -2,6 +2,7 @@ package com.matt3948.mystictoilet.util;
 
 import com.matt3948.mystictoilet.blocks.BlockItemBase;
 import com.matt3948.mystictoilet.blocks.MysticForgeStoneBlock;
+import com.matt3948.mystictoilet.blocks.MysticForgeStructureBlock;
 import com.matt3948.mystictoilet.items.ItemBase;
 import com.matt3948.mystictoilet.mystictoilet;
 import net.minecraft.block.Block;
@@ -34,8 +35,8 @@ public class RegistryHandler {
 
     //Blocks (thing that is placed on the ground)
     public static final RegistryObject<Block> MYSTIC_FORGE_STONE_BLOCK = BLOCKS.register("mystic_forge_stone_block", MysticForgeStoneBlock::new);
-
+    public static final RegistryObject<Block> MYSTIC_FORGE_STRUCTURE_BLOCK = BLOCKS.register("mystic_forge_structure_block", MysticForgeStructureBlock::new);
     //Block Items (thing you hold in your hand)
     public static final RegistryObject<Item> MYSTIC_FORGE_STONE_BLOCK_ITEM = ITEMS.register("mystic_forge_stone_block", () -> new BlockItemBase(MYSTIC_FORGE_STONE_BLOCK.get()));
-
+    public static final RegistryObject<Item> MYSTIC_FORGE_STRUCTURE_BLOCK_ITEM = ITEMS.register("mystic_forge_structure_block", () -> new BlockItemBase(MYSTIC_FORGE_STRUCTURE_BLOCK.get()));
 }
