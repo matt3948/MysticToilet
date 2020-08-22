@@ -8,6 +8,7 @@
 
   "block.mystictoilet.mystic_forge_stone_block":"Mystic Stone",
   "block.mystictoilet.mystic_forge_structure_block":"Mystic Forge Structure Block",
+  "block.mystictoilet.glob_of_ectoplasm_block":"Block of Ectoplasm",
 
   "itemGroup.mystictoiletTab" : "Mystic Toilet"
 }

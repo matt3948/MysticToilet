@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystictoilet:blocks/glob_of_ectoplasm_block"
+  }
+}

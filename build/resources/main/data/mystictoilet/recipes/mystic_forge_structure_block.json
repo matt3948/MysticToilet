@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xyx",
+    "yxy",
+    "xyx"
+  ],
+  "key":
+  {
+    "y":
+    {
+      "item": "mystictoilet:mystic_forge_stone"
+    },
+    "x":
+    {
+      "item": "mystictoilet:obsidian_shard"
+    }
+  },
+  "result":
+  {
+    "item": "mystictoilet:mystic_forge_structure_block",
+    "count": 1
+  }
+}

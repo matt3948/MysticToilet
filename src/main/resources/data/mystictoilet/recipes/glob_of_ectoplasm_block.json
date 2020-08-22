@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "yyy",
+    "yyy",
+    "yyy"
+  ],
+  "key":
+  {
+    "y":
+    {
+      "item": "mystictoilet:glob_of_ectoplasm"
+    }
+  },
+  "result":
+  {
+    "item": "mystictoilet:glob_of_ectoplasm_block",
+    "count": 1
+  }
+}

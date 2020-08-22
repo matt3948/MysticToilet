@@ -1,6 +1,7 @@
 package com.matt3948.mystictoilet.util;
 
 import com.matt3948.mystictoilet.blocks.BlockItemBase;
+import com.matt3948.mystictoilet.blocks.GlobOfEctoplasmBlock;
 import com.matt3948.mystictoilet.blocks.MysticForgeStoneBlock;
 import com.matt3948.mystictoilet.blocks.MysticForgeStructureBlock;
 import com.matt3948.mystictoilet.items.ItemBase;
@@ -31,12 +32,14 @@ public class RegistryHandler {
     public static final RegistryObject<Item> MYSTIC_COIN = ITEMS.register("mystic_coin", ItemBase::new); //????
     public static final RegistryObject<Item> GLOB_OF_ECTOPLASM = ITEMS.register("glob_of_ectoplasm", ItemBase::new); //armor/weapons upgrades
     public static final RegistryObject<Item> MYSTIC_CRYSTAL = ITEMS.register("mystic_crystal", ItemBase::new); //armor/weapon upgrades
-    //person's weapon, ? mystic forge stones, 5 glob of ectos, 10 mystic crystals - person's armor, ? mystic forge stones, 5 glob of ectos, 10 mystic crystals
+    //person's weapon, ? mystic forge stone, 5 glob of ectos, 10 mystic crystals - person's armor, ? mystic forge stones, 5 glob of ectos, 10 mystic crystals
 
     //Blocks (thing that is placed on the ground)
     public static final RegistryObject<Block> MYSTIC_FORGE_STONE_BLOCK = BLOCKS.register("mystic_forge_stone_block", MysticForgeStoneBlock::new);
     public static final RegistryObject<Block> MYSTIC_FORGE_STRUCTURE_BLOCK = BLOCKS.register("mystic_forge_structure_block", MysticForgeStructureBlock::new);
+    public static final RegistryObject<Block> GLOB_OF_ECTOPLASM_BLOCK = BLOCKS.register("glob_of_ectoplasm_block", GlobOfEctoplasmBlock::new);
     //Block Items (thing you hold in your hand)
     public static final RegistryObject<Item> MYSTIC_FORGE_STONE_BLOCK_ITEM = ITEMS.register("mystic_forge_stone_block", () -> new BlockItemBase(MYSTIC_FORGE_STONE_BLOCK.get()));
     public static final RegistryObject<Item> MYSTIC_FORGE_STRUCTURE_BLOCK_ITEM = ITEMS.register("mystic_forge_structure_block", () -> new BlockItemBase(MYSTIC_FORGE_STRUCTURE_BLOCK.get()));
+    public static final RegistryObject<Item> GLOB_OF_ECTOPLASM_BLOCK_ITEM = ITEMS.register("glob_of_ectoplasm_block", () -> new BlockItemBase(GLOB_OF_ECTOPLASM_BLOCK.get()));
 }

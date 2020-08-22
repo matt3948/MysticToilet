@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "MOD_ID:glob_of_ectoplasm_block"
+    }
+  ],
+  "result":
+  {
+    "item": "mystictoilet:glob_of_ectoplasm",
+    "count": 9
+  }
+}
